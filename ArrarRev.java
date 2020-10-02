@@ -1,0 +1,22 @@
+package src.com.ajita;
+
+public class ArrarRev {
+
+public static void main(String[] args){
+    //Initialize array
+    int[] arr= {1,2,3,4,5};
+System.out.println("Original array");
+for(int i=0; i<arr.length; i++) {
+    System.out.println(arr[i]);
+}
+ System.out.println("Array in reverse order:");
+//loop through the array in reverse
+    for(int i= arr.length-1; i>=0; i--) {
+        System.out.println(arr[i]);
+    }
+
+
+}
+
+}
+
